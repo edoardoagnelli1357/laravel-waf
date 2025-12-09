@@ -1,0 +1,17 @@
+{
+    "name": "edoardoagnelli1357/laravel-waf",
+    "description": "A comprehensive package for implementing a firewall mechanism in Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Edoardoagnelli1357\\LaravelWaf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "edoardoagnelli1357"
+        }
+    ],
+    "require": {}
+}
