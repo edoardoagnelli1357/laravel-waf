@@ -1,17 +1,41 @@
 {
-    "name": "edoardoagnelli1357/laravel-waf",
-    "description": "A comprehensive package for implementing a firewall mechanism in Laravel.",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Edoardoagnelli1357\\LaravelWaf\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "edoardoagnelli1357"
-        }
-    ],
-    "require": {}
+  "name": "edoardoagnelli1357/laravel-waf",
+  "description": "A comprehensive package for implementing a firewall mechanism in Laravel.",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "web",
+    "waf",
+    "firewall",
+    "security",
+    "waf",
+    "blacklist",
+    "xss",
+    "sqli",
+    "rfi",
+    "lfi"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Edoardoagnelli1357\\LaravelWaf\\": "src/",
+      "Edoardoagnelli1357\\LaravelWaf\\Http\\": "src/app/Http/"
+    }
+  },
+  "authors": [
+    {
+      "name": "edoardoagnelli1357"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
+    "guzzlehttp/guzzle": "^7.8",
+    "mobiledetect/mobiledetectlib": "^4.8",
+    "jaybizzle/crawler-detect": "^1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5|^10.0|^11.0",
+    "orchestra/testbench": "^7.4|^8.0|^9.0|^10.0"
+  }
 }
